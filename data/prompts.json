@@ -1,0 +1,70 @@
+{
+  "sintaxe": [
+    {
+      "id": "SINTAXE_VARIAR_COMPRIMENTO",
+      "nome": "Variar Comprimento de Frases",
+      "description": "Alterna entre frases curtas e longas",
+      "template": "Reescreve o seguinte texto variando o comprimento das frases. Alterna entre frases curtas (5-10 palavras) e longas (20-30 palavras). Mantém o significado exato:\n\n{texto}"
+    },
+    {
+      "id": "SINTAXE_ENRIQUECER_PONTUACAO",
+      "nome": "Enriquecer Pontuação",
+      "description": "Adiciona pontuação sofisticada",
+      "template": "Reescreve o texto usando pontuação variada: ponto e vírgula (;), travessão (—), dois pontos (:), parênteses (). Mantém o significado:\n\n{texto}"
+    },
+    {
+      "id": "SINTAXE_ATIVAR_VOZ",
+      "nome": "Converter para Voz Ativa",
+      "description": "Transforma passiva em ativa",
+      "template": "Reescreve todas as frases em voz passiva para voz ativa. Mantém o significado:\n\n{texto}"
+    },
+    {
+      "id": "SINTAXE_VARIAR_RITMO",
+      "nome": "Variar Ritmo das Frases",
+      "description": "Aumenta variação no comprimento de frases para criar ritmo mais natural",
+      "template": "Reescreve o texto variando o ritmo das frases. Alterna entre frases curtas (5-10 palavras), médias (15-20 palavras) e longas (25-35 palavras) para criar um padrão irregular e natural. Desvio padrão atual: {std_dev}, comprimento médio: {avg_length}.\n\nTexto:\n\n{texto}"
+    }
+  ],
+  "lexico": [
+    {
+      "id": "LEXICO_DIVERSIFICAR",
+      "nome": "Diversificar Vocabulário",
+      "description": "Aumenta diversidade vocabular substituindo palavras repetidas",
+      "template": "Reescreve o texto aumentando a diversidade vocabular. Substitui palavras comuns que se repetem por sinônimos variados. Preserva termos técnicos e específicos. TTR atual: {ttr_atual}. Palavras repetidas: {palavras_repetidas}\n\nTexto:\n\n{texto}"
+    },
+    {
+      "id": "LEXICO_DESNOMINALIZAR",
+      "nome": "Reduzir Nominalizações",
+      "description": "Substitui substantivos abstratos por verbos",
+      "template": "Reescreve o texto substituindo nominalizações (-ção, -mento, -ância) por verbos de ação diretos. Mantém o significado:\n\n{texto}"
+    }
+  ],
+  "estilo": [
+    {
+      "id": "ESTILO_PESSOALIZAR",
+      "nome": "Adicionar Voz Pessoal",
+      "description": "Torna o texto menos impessoal",
+      "template": "Reescreve o texto adicionando pronomes pessoais (eu, nós) e reduzindo construções impessoais (verifica-se, observa-se). Mantém o significado:\n\n{texto}"
+    },
+    {
+      "id": "ESTILO_INFORMALIZAR",
+      "nome": "Reduzir Formalidade",
+      "description": "Torna o texto menos formal e mais natural",
+      "template": "Reescreve o texto reduzindo a formalidade excessiva. Substitui linguagem acadêmica por expressões mais naturais e coloquiais. Score de formalidade atual: {formality_score}. Mantém o significado:\n\n{texto}"
+    }
+  ],
+  "estrutura": [
+    {
+      "id": "ESTRUTURA_LIMPAR_MARCADORES",
+      "nome": "Remover Marcadores de IA",
+      "description": "Remove expressões-fórmula típicas",
+      "template": "Reescreve o texto removendo expressões típicas de IA como 'é importante notar que', 'além disso', 'neste contexto'. Mantém o significado:\n\n{texto}"
+    },
+    {
+      "id": "ESTRUTURA_REORGANIZAR",
+      "nome": "Reorganizar Estrutura",
+      "description": "Remove estrutura formulaica de introdução/conclusão",
+      "template": "Reescreve o texto reorganizando a estrutura para eliminar padrões formulaicos típicos de IA. Remove introduções previsíveis ('Neste texto...') e conclusões mecânicas ('Em conclusão...'). Começa diretamente com conteúdo relevante. Mantém o significado:\n\n{texto}"
+    }
+  ]
+}
